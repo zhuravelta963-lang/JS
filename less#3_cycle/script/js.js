@@ -67,11 +67,37 @@
 
 //Task 8
 
-for(i = 1; i <= 20; i ++){
-    if(i % 2 !== 0){
-        continue;
-    }
-    alert(i);
-}
+// for(let i = 1; i <= 20; i++){
+//     if(i % 2 === 0){
+//         continue;
+//     }
+//     alert(i);
+// }
+
+//Task 9
+
+// let N = prompt("Введіть число")
+// alert(N.length);
+
+//Task 10
+
+
+// let true_N = 67;
+// let N;
+// do{
+//     N = prompt("Введіть число");
+//     if(N > true_N){
+//         alert("Менше");
+//     }
+//     else if(N < true_N){
+//         alert("Більше");
+//     }
+//     else{
+//         alert("Ви вгадали");
+//         break;
+//     }
+// }while(N !== true_N);
+
+
 
 
