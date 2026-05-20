@@ -1,0 +1,15 @@
+let rate1 = 43.7;
+let rate2 = 44.7;
+let rate3 = 45.7;
+let balance = prompt("Введіть початковий баланс")*1;
+let amount_1 = prompt("Введіть дохід за 1 місяць")*1;
+let amount_2 = prompt("Введіть дохід за 2 місяць")*1;
+let amount_3 = prompt("Введіть дохід за 3 місяць")*1;
+let total = amount_1 + amount_2 + amount_3;
+let vutratu = (3500 + 4000 + 9.99 * rate1) + (3500 + 4000 + 9.99 * rate2) + (3500 + 4000 + 9.99 * rate3);
+let tax = total * 0.05 + 4500;
+let final = balance + total - vutratu - tax;
+alert("В цьому кварталі Максим витратив " + vutratu + " грн.");
+alert("Загальний дохід Максима за квартал становить " + total + " грн.");
+alert("Загальна сума податків становить " + tax + " грн");
+alert("Отже, наприкінці кварталу залишок на рахунку Максима становить " + final + " грн.");
